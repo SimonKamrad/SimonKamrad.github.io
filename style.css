@@ -581,6 +581,33 @@ h2 {
   background: rgb(229 59 50 / 10%);
 }
 
+dialog {
+  width: min(520px, calc(100% - 2rem));
+  padding: 1.5rem;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--ink);
+}
+
+dialog::backdrop {
+  background: rgb(20 20 20 / 60%);
+}
+
+dialog h2 {
+  margin-bottom: 1rem;
+  font-family: var(--display);
+  font-size: 1.4rem;
+}
+
+#citation-markdown {
+  margin-bottom: 1.25rem;
+  overflow-x: auto;
+  color: var(--muted);
+  font: inherit;
+  line-height: 1.6;
+  white-space: pre-wrap;
+}
+
 .instagram-link {
   display: grid;
   width: 38px;

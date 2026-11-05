@@ -552,11 +552,6 @@ h2 {
   font-size: 0.82rem;
 }
 
-.footer-quote {
-  max-width: 360px;
-  line-height: 1.6;
-}
-
 .footer-validators {
   display: flex;
   flex-wrap: wrap;
